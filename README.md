@@ -93,12 +93,10 @@ Saves all the previously set states to a file.
     `chars` is a table, now being replaced by number value.
     preference.set("chars",20);
   ```
-  You cannot push new value to an array.
+  You can push new value to an array.
   ```markdown
-    preference.set("chars.ironcat.other.5",20);-- This is not possible because array size that was stored was 4.
-    preference.set("chars.ironcat.other.1",20);-- This is possible because array has size of 4.
-    preference.set("chars.ironcat.other",{1,0,10,5,0})--This is possible, it overrides the previos array.
-    preference.set("chars.ironcat.other.5",20)--This is not possible because now the array has size of 5.
+    preference.set("chars.ironcat.other.5",20);
+    preference.set("chars.ironcat.other",{1,0,10,5,0})--It overrides the previous array.
   ```
   
 ### Getting data
