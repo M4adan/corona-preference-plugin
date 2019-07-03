@@ -83,7 +83,7 @@ Saves all the previously set states to a file.
   ```markdown
     preference.set("gender","male");
   ```
-  You can save to a perticalur table value
+  You can save to a particular table value
   ```markdown
     preference.set("chars.ironcat.max_health",20);
   ```
