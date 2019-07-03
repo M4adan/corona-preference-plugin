@@ -135,7 +135,7 @@ You can get all preference table
   ```
 ## Advanced
 ### preference.create()
-This is return an preference object. Its similar to above `preference` but should be used with `:` instead of `.`
+This will return an preference object. Its similar to above `preference` but should be used with `:` instead of `.`
 It is easier not to use this function.
 
 ```markdown
