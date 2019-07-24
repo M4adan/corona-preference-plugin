@@ -16,7 +16,7 @@ settings =
         ["plugin.preference"] = {
             publisherId = "com.m4adan"
         }
-    }
+    },
 
 	iphone =
 	{
